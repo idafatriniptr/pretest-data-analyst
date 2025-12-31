@@ -37,6 +37,7 @@ Pertanyaan:
 
 ### B. USE CASE (STUDI KASUS)
 Use Case 1: Data Belum Tersedia
+
 Kondisi:
 Anda diminta membuat visualisasi dashboard, namun data yang dibutuhkan belum tersedia atau belum dimigrasikan ke data warehouse.
 
@@ -44,6 +45,7 @@ Pertanyaan:
 - Apa langkah pertama yang harus dilakukan?
 
 Use Case 2: Perbedaan Nilai Database dan Dashboard
+
 Kondisi:
 Terdapat data transaksi di database dan di dashboard, namun nilai yang ditampilkan di dashboard berbeda dengan nilai di database.
 
@@ -52,6 +54,7 @@ Pertanyaan:
 - Langkah apa yang harus dilakukan untuk memverifikasi dan menyelesaikan masalah ini?
 
 Use Case 3: Filter Tidak Sesuai Ekspektasi User
+
 Kondisi:
 User ingin memfilter data berdasarkan kondisi tertentu, namun hasil yang ditampilkan tidak sesuai atau data tidak muncul seperti yang diharapkan.
 
@@ -60,6 +63,7 @@ Pertanyaan:
 - Bagaimana cara memastikan filter bekerja sesuai dengan logika data?
 
 Use Case 4: Tipe Data Tidak Mendukung Aggregasi
+
 Kondisi:
 Tipe data pada database tidak sesuai untuk dilakukan agregasi di BI tools (misalnya data numerik tersimpan sebagai string).
 
@@ -68,6 +72,7 @@ Pertanyaan:
 - Apa nama proses yang dilakukan untuk memperbaiki kondisi tersebut?
 
 Use Case 5: Nilai Terlalu Besar atau Terlalu Kecil
+
 Kondisi:
 Query tidak menghasilkan error, namun hasil perhitungan menunjukkan angka yang terlalu besar atau terlalu kecil.
 
